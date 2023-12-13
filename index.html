@@ -10,45 +10,72 @@
   <body>
     <h1>Welcome to my Webpage</h1>
     <h2>I'm Steven!</h2>
-    <img src="images/gundam.jpg" alt="Image of mobile suit Gundam" />
-    <p style="text-align: center;">P.S. Try clicking on the image!<br><br></p>
-    <p>
-      This is a simple webpage to introduce myself.
-      Consider it a... <i>beginners portfolio.</i><br>
 
-      Here's a little bit about me:<br>
+    <figure>
+      <img src="images/spot-tower-photoshoot.jpeg" alt="Image of Steven with a spot robotat the UT Tower" />
+      <figcaption id="figcap">Steven is wearing orange :)</figcaption>
+    </figure>
+
+    <div class="center">
+      <button>Click Me</button>
+      <script src="scripts/main.js"></script>
+    </div>
+
+    <p style="text-align: center; font-size:12px" id="easteregg" hidden>
+      Try clicking on the image!<br><br>
+    </p>
+
+    <p>
+      This is a simple webpage to introduce myself.<br><br>
+      <b>Academics</b>
       <ul>
-        <li>My name is Steven Ortega</li>
-        <li>I am a student at the <a href="https://utexas.edu">(University of Texas at Austin)</a></li>
+        <li>I am a student at the <a href="https://utexas.edu">University of Texas at Austin</a>.
+        </li>
         <ul>
-          <li>I am studying Mechanical Engineering and a Computer Science certificate</li>
-          <li>I am planning on pursuing a Masters of Science in Mechanical Engineering; also at UT</li>
+          <li>I'm a Mechanical Engineering major pursuing a Computer Science certificate.</li>
+          <li>I am planning on pursuing a Masters of Science in Mechanical Engineering with a focus on Controls. </li>
         </ul>
-        <li>I enjoy hiking, photography, small engineering projects, and going out with friends</li>
-        <li>Professionally I am interested in Space, Robotics, Cyber, and Software Development</li>
-        <li>Fun Fact: I like to fly fpv drones</li>
+        <li>I'm an undergraduate research assistant in the Human Centered Robotics Lab
+          <a href="https://sites.utexas.edu/hcrl/">(HCRL)</a>.
+        </li>
+        <li>I'm also in the Texas Rocket Engineering Lab
+          <a href="https://www.texasrocketlab.com/">(TREL)</a>.
+        </li>
       </ul>
     </p>
     <p>
-      <br>As you can see, I am learning to create my own website!<br>
-      So far on this page, I have done a couple of things:
-
+      <b>About Me</b>
       <ul>
-        <li>Created a index.html</li>
-        <li>Added an image file</li>
-        <li>Used tags to structure the body</li>
-        <li>Learned how to add links</li>
-        <ul>
-          <li>For example: <a href="https://github.com/a-blue-pig">(Check out my GitHub!)</a></li>
-        </ul>
-        <li>Added some JavaScript functionality including storing data in the browser</li>
+        <li>Professionally I am interested in Space, Robotics, Cyber, and Software Development.</li>
+        <li>I am currently in the Air Force ROTC program.</li>
+        <li>I enjoy hiking, playing soccer, photography, small engineering projects, and going out with friends.</li>
+        <li>Fun Fact: I like to fly fpv drones.</li>
       </ul>
     </p>
+
     <p>
-    Change the user! See what happens. Maybe even refresh the page?<br>
+      <strong>Publications</strong>
+      <div id="refs" class="references csl-bib-body hanging-indent">
+        <div id="ref-gonzalez_design_2023" class="csl-entry">
+          Gonzalez, Carlos, Samantha Lee, Francisco Montano, <b>Steven Ortega</b>, Dong
+          Ho Kang, Mehar Jaiswal, Junfeng Jiao, and Luis Sentis. 2023.
+          <span>“Design of a Person-Carrying Robot for Contact Compliant
+          Navigation.”</span> In <em>Volume 8: 47th <span>Mechanisms</span> and
+          <span>Robotics</span> <span>Conference</span> (<span>MR</span>)</em>,
+          V008T08A094. Boston, Massachusetts, USA: American Society of Mechanical
+          Engineers. <a
+          href="https://doi.org/10.1115/DETC2023-117215">https://doi.org/10.1115/DETC2023-117215</a>.
+        </div>
+        <div id="ref-gupta_learned_2023" class="csl-entry">
+          Gupta, Ryan, Kyle Morgenstein, <b>Steven Ortega</b>, and Luis Sentis. 2023.
+          <span>“Learned <span>Contextual</span> <span>LiDAR</span>
+          <span>Informed</span> <span>Visual</span> <span>Search</span> in
+          <span>Unseen</span> <span>Environments</span>.”</span> <a
+          href="https://doi.org/10.48550/ARXIV.2309.14150">https://doi.org/10.48550/ARXIV.2309.14150</a>.
+        </div>
+      </div>
+
     </p>
-    <button>Change User</button>
-    <script src="scripts/main.js"></script>
   </body>
 </html>
 
