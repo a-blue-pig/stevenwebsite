@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US" class="theme1">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Who is Steven?</title>
+    <link rel="icon" href="images/favicon.png" />
     <link href="styles/style.css" rel="stylesheet" />
-    <link href="styles/fonts/Belanosima-Regular.ttf" rel="stylesheet" />
+
+    <!-- Get Open Sans Font from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <h1>Welcome to my Webpage</h1>
     <h2>I'm Steven!</h2>
 
     <figure>
-      <img src="images/spot-tower-photoshoot.jpeg" alt="Image of Steven with a spot robotat the UT Tower" />
+      <img
+        src="images/spot-tower-photoshoot.jpeg"
+        alt="Image of Steven with a spot robot at the UT Tower"
+      >
       <figcaption id="figcap">Steven is wearing orange :)</figcaption>
     </figure>
 
@@ -25,57 +34,81 @@
       Try clicking on the image!<br><br>
     </p>
 
-    <p>
-      This is a simple webpage to introduce myself.<br><br>
-      <b>Academics</b>
-      <ul>
-        <li>I am a student at the <a href="https://utexas.edu">University of Texas at Austin</a>.
-        </li>
-        <ul>
-          <li>I'm a Mechanical Engineering major pursuing a Computer Science certificate.</li>
-          <li>I am planning on pursuing a Masters of Science in Mechanical Engineering with a focus on Controls. </li>
-        </ul>
-        <li>I'm an undergraduate research assistant in the Human Centered Robotics Lab
-          <a href="https://sites.utexas.edu/hcrl/">(HCRL)</a>.
-        </li>
-        <li>I'm also in the Texas Rocket Engineering Lab
-          <a href="https://www.texasrocketlab.com/">(TREL)</a>.
-        </li>
-      </ul>
-    </p>
-    <p>
-      <b>About Me</b>
-      <ul>
-        <li>Professionally I am interested in Space, Robotics, Cyber, and Software Development.</li>
-        <li>I am currently in the Air Force ROTC program.</li>
-        <li>I enjoy hiking, playing soccer, photography, small engineering projects, and going out with friends.</li>
-        <li>Fun Fact: I like to fly fpv drones.</li>
-      </ul>
-    </p>
+    <p><strong>About Me</strong></p>
+    <ul>
+      <li>
+        Professionally I am interested in Space, Robotics, Cyber,
+        and Software Development.
+      </li>
+      <li>I am currently in the Air Force ROTC program.</li>
+      <li>
+        I enjoy hiking, playing soccer, photography, small engineering
+        projects, and going out with friends.
+      </li>
+      <li>Fun Fact: I like to fly fpv drones.</li>
+    </ul>
 
-    <p>
-      <strong>Publications</strong>
-      <div id="refs" class="references csl-bib-body hanging-indent">
-        <div id="ref-gonzalez_design_2023" class="csl-entry">
-          Gonzalez, Carlos, Samantha Lee, Francisco Montano, <b>Steven Ortega</b>, Dong
-          Ho Kang, Mehar Jaiswal, Junfeng Jiao, and Luis Sentis. 2023.
-          <span>“Design of a Person-Carrying Robot for Contact Compliant
-          Navigation.”</span> In <em>Volume 8: 47th <span>Mechanisms</span> and
-          <span>Robotics</span> <span>Conference</span> (<span>MR</span>)</em>,
-          V008T08A094. Boston, Massachusetts, USA: American Society of Mechanical
-          Engineers. <a
-          href="https://doi.org/10.1115/DETC2023-117215">https://doi.org/10.1115/DETC2023-117215</a>.
-        </div>
-        <div id="ref-gupta_learned_2023" class="csl-entry">
-          Gupta, Ryan, Kyle Morgenstein, <b>Steven Ortega</b>, and Luis Sentis. 2023.
-          <span>“Learned <span>Contextual</span> <span>LiDAR</span>
-          <span>Informed</span> <span>Visual</span> <span>Search</span> in
-          <span>Unseen</span> <span>Environments</span>.”</span> <a
-          href="https://doi.org/10.48550/ARXIV.2309.14150">https://doi.org/10.48550/ARXIV.2309.14150</a>.
-        </div>
+  <p><strong>Academics</strong></p>
+  <ul>
+    <li>I am a student at the
+      <a href="https://utexas.edu" title="University of Texas Website">
+        University of Texas at Austin
+      </a>.
+      <ul>
+        <li>
+          I'm a Mechanical Engineering major pursuing a Computer Science
+          certificate.
+        </li>
+        <li>
+          I am planning on pursuing a Masters of Science in Mechanical
+          Engineering with a focus on Controls.
+        </li>
+      </ul>
+    </li>
+    <li>I'm an undergraduate research assistant in the Human Centered
+      Robotics Lab
+      <a href="https://sites.utexas.edu/hcrl/" title="HCRL Website">
+        (HCRL)
+      </a>.
+    </li>
+    <li>I'm also in the Texas Rocket Engineering Lab
+      <a href="https://www.texasrocketlab.com/" title="TREL Website">
+        (TREL)
+      </a>.
+    </li>
+  </ul>
+
+    <p><strong>Publications</strong></p>
+    <div id="refs" class="references csl-bib-body hanging-indent">
+      <div id="ref-gupta_learned_2023" class="csl-entry">
+        Gupta, Ryan, Kyle Morgenstein, <b>Steven Ortega</b>, and Luis Sentis.
+        2023.
+        “Learned Contextual LiDAR Informed Visual Search in Unseen
+        Environments.”
+        <a
+          href="https://doi.org/10.48550/ARXIV.2309.14150"
+          title="Learned Contextual LiDAR Informed Visual Search in Unseen Environments"
+        >
+          https://doi.org/10.48550/ARXIV.2309.14150
+        </a>.
       </div>
 
-    </p>
+      <div id="ref-gonzalez_design_2023" class="csl-entry">
+        Gonzalez, Carlos, Samantha Lee, Francisco Montano, <b>Steven
+        Ortega</b>, Dong Ho Kang, Mehar Jaiswal, Junfeng Jiao, and Luis
+        Sentis. 2023.
+        “Design of a Person-Carrying Robot for Contact Compliant Navigation.”
+        In <em>Volume 8: 47th Mechanisms and Robotics Conference (MR)</em>,
+        V008T08A094. Boston, Massachusetts, USA: American Society of
+        Mechanical Engineers.
+        <a
+          href="https://doi.org/10.1115/DETC2023-117215"
+          title="Design of a Person-Carrying Robot for Contact Compliant Navigation"
+        >
+          https://doi.org/10.1115/DETC2023-117215
+        </a>.
+      </div>
+    </div>
   </body>
 </html>
 
